@@ -1,0 +1,13 @@
+# XAMPP default folders
+/dashboard/
+/img/
+/webalizer/
+/xampp/
+
+# XAMPP default files
+/applications.html
+/bitnami.css
+/favicon.ico
+/index.html
+/index.php
+/style.css
