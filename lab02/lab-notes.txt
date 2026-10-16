@@ -1,0 +1,15 @@
+Browser Used: Microsoft Edge
+
+------------------------------------------------------------------------------------------------------------------------------------
+Error Corrected:
+Adding "alt" attribite to the image. When the image cannot be loaded, "alt" show the description of the picture.
+
+Original: <img src="image.png" width="1000" />
+
+Corrected: <img src="image.png" width="1000" alt="UPM sign and logo on the campus lawn with palm trees and hall at behind"/>
+
+-------------------------------------------------------------------------------------------------------------------------------------
+The difference between an HTML tag and an HTML element:
+A tag is the markup, whereas an element is the tag plus content to form one unit on the page.
+
+For example, "<p>" is a tag, while "<p>Welcome to UPM</p>" is an element.
