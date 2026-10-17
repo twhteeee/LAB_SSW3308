@@ -13,8 +13,8 @@
 
 - Navbar: `navbar-expand-lg` in `index.html`; collapses below 992 px. The toggler is a `<button>`, so user can work with the keyboard.
 - Event cards: `col-12 col-md-6 col-lg-4` gives 1 card per row below 768 px, 2 cards per row from 768 px, 3 cards per row from 992 px.
-- Success case: at 1280 px, [3 cards in one row, full menu visible].
-- Boundary case: at 767 px, [1 card per row]; at 768 px, [2 cards per row].
+- Success case: at 1280 px, 3 cards in one row, full menu visible.
+- Boundary case: at 767 px, 1 card per row; at 768 px, 2 cards per row.
 
 ## Extend and style the content (Task 3)
 
@@ -22,8 +22,8 @@
 - Schedule table: wrapped in `.table-responsive` so only the table scrolls sideways.
 - Form: Bootstrap `form-control`, `form-select`, `btn`; validation feedback with `needs-validation` and `invalid-feedback`.
 - Custom CSS: 35 lines in `css/custom.css`.
-- Success case: valid name, email and event → [fields turn green].
-- Invalid case: empty name and email `abc` → [error messages shown, form not submitted].
+- Success case: valid name, email and event → fields turn green
+- Invalid case: empty name and email `email` → error messages shown, form not submitted.
 
 ## Verify accessibility and responsive behavior (Task 4)
 
