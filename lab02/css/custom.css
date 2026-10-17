@@ -20,7 +20,7 @@
   color: #fff;
 }
 
-/* Clear, high-contrast keyboard focus outline */
+/* Keyboard focus outline */
 a:focus-visible,
 button:focus-visible,
 .form-control:focus-visible,
