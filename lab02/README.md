@@ -29,11 +29,11 @@
 
 Tested at 360, 768 and 1280 px, each at 200% zoom.
 
-| Width   | Horizontal page scroll? | Effective width at 200% zoom | Navbar                              | Screenshot                           |
-| ------- | ----------------------- | ---------------------------- | ----------------------------------- | ------------------------------------ |
-| 360 px  | No                      | 360 px                       | Collapsed, toogler opens with Enter | `evidence/responsive/360_Width.png`  |
-| 768 px  | No                      | 548 px                       | Collapsed, toogler opens with Enter | `evidence/responsive/768_Width.png`  |
-| 1280 px | No                      | 548 px                       | Collapsed, toogler opens with Enter | `evidence/responsive/1280_Width.png` |
+| Width   | Horizontal page scroll? | Effective width at 200% zoom | Navbar                              | Screenshot                                |
+| ------- | ----------------------- | ---------------------------- | ----------------------------------- | ----------------------------------------- |
+| 360 px  | No                      | 360 px                       | Collapsed, toogler opens with Enter | `evidence/responsive/360px_200_zoom.png`  |
+| 768 px  | No                      | 548 px                       | Collapsed, toogler opens with Enter | `evidence/responsive/768px_200_zoom.png`  |
+| 1280 px | No                      | 548 px                       | Collapsed, toogler opens with Enter | `evidence/responsive/1280px_200_zoom.png` |
 
 - Horizontal scroll check (Console): `document.documentElement.scrollWidth <= document.documentElement.clientWidth` returned true at each width.
 - Keyboard-only test: Tab through the navbar, links and form; Enter or Space on the navbar toggler; Enter on Submit. Focus outline visible: Yes.
