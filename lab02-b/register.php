@@ -1,9 +1,10 @@
 <?php
+// Declare and Initialize the variable
 $errors = [];
 $submitted = false;
 $name = $email = $event = '';
 
-// Each event's details and design (keys match the <option> values in index.html)
+// Each event's details and design
 $events = [
     'hackathon' => [
         'title'   => 'Gemini No Code Hackathon 2026',
@@ -93,12 +94,14 @@ $colour = $ok ? $theme['colour'] : 'secondary';
     <div class="row justify-content-center">
       <div class="col-12 col-md-10 col-lg-8">
 
+        <!--If the form is not submitted-->
         <?php if (!$submitted): ?>
           <div class="alert alert-warning" role="alert">
             Please use the registration form to submit your details.
           </div>
           <a href="index.html" class="btn btn-primary">Back to Main Page</a>
 
+        <!--If there is any error-->
         <?php elseif ($errors): ?>
           <div class="alert alert-danger" role="alert">
             <ul class="mb-0">
@@ -109,8 +112,9 @@ $colour = $ok ? $theme['colour'] : 'secondary';
           </div>
           <a href="index.html#register" class="btn btn-primary">Back to the form</a>
 
+        <!--Else, no errors-->
         <?php else: ?>
-          <div class="card border-<?= $colour ?> shadow">
+          <div class="card border-<?= $colour ?> shadow"> // Using card to show the information
             <div class="card-header text-bg-<?= $colour ?> fs-5">
               <span aria-hidden="true"><?= $theme['icon'] ?></span>
               <?= $theme['title'] ?>
