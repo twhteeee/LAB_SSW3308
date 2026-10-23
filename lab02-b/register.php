@@ -114,7 +114,7 @@ $colour = $ok ? $theme['colour'] : 'secondary';
 
         <!--Else, no errors-->
         <?php else: ?>
-          <div class="card border-<?= $colour ?> shadow"> // Using card to show the information
+          <div class="card border-<?= $colour ?> shadow"> <!--Using card to show the info-->
             <div class="card-header text-bg-<?= $colour ?> fs-5">
               <span aria-hidden="true"><?= $theme['icon'] ?></span>
               <?= $theme['title'] ?>
