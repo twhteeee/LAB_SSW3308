@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errors[] = 'Please choose an event from the list.';
     }
 
-    // 3. Insert with a prepared statement
+    // 3. Insert into databases using MySQL in XAMPP
     if (!$errors) {
         mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
         try {
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 
-// Pick the design for the page
+// Design for the page after registration
 $ok     = $submitted && !$errors;
 $theme  = $ok ? $events[$event] : null;
 $colour = $ok ? $theme['colour'] : 'secondary';
